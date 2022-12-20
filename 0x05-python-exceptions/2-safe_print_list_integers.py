@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-import sys
-
-
-def safe_print_integer_err(value):
-    try:
-        print("{:d}".format(value))
-    except (ValueError, TypeError) as e:
-        sys.stderr.write("Exception: {}\n".format(e))
-        return False
-    return True
+def safe_print_list_integers(my_list=[], x=0):
+    y = 0
+    for i in range(x):
+        try:
+            print("{:d}".format(my_list[i]), end='')
+            y += 1
+        except (TypeError, ValueError):
+            continue
+    print()
+    return y
