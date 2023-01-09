@@ -1,13 +1,9 @@
 #!/usr/bin/python3
-# Auth: Akakori A Evans:
-""" This module defines a class Mylist that inherits from 'list'"""
+"""MyList class module- test cases in tests/1-my_list.txt"""
 
 
 class MyList(list):
-    """ inherits from the list base class and implements
-        sorted printing
-    """
-
+    """my own class: MyList, inherits from list"""
     def print_sorted(self):
-        """ prints the list sorted in ascending order """
+        """print sorted list method"""
         print(sorted(self))
