@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Auth: Sangwani P Zyambo:
+# Auth: Akakori A Evans:
 """ this module contains a function that
     returns all attributes and methods of an object
 """
