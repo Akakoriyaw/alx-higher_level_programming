@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+# Auth: Akakori A Evans:
 """ This module defines a class Mylist that inherits from 'list'"""
 
 
